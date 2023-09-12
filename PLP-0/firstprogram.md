@@ -7,4 +7,10 @@ Click inside the Workspace window. You should see a shell, shown by ">>". Using 
 Next, click the New button on the top left of the GUI, and then select Script. This will create a new .m file, which will store your MATLAB program.   
 
 Now, type in the .m file:    
-fprintf("Hello, world!")
+fprintf("Hello, world!"\n)   
+
+You can add comments using "%".
+
+Next, click the Save button. You should be prompted to name your file. Pick a good name (probably not blacktail.m, after Nanette's dead cat. #RIP). I named my file helloWorld.m!   
+
+Next, click the Run button on the top right of the GUI. Congrats! You've now created your first program in MATLAB!
