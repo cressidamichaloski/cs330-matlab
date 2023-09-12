@@ -10,7 +10,7 @@ In 1983, Jack Little, a member of the graduate engineering program at Stanford, 
    
 Moler, Little, and Bangert went on to found MathWorks, and they introduced PC-MATLAB in 1984 at the 23rd IEEE Conference on Decision and Control.   
 
-Since then, MATLAB has evolved to become a high-level language with many data types and extended capabilities, with over 60 Toolboxes available for use.    
+Since then, MATLAB has evolved to become a high-level language with many data types and extended capabilities, as well as over 60 Toolboxes available to use for various applications such as machine learning, image processing, and more.    
    
 The resource used to create this tutorial will be [the official MATLAB documentation](https://www.mathworks.com/help/matlab/ "MathWorks MATLAB Documentation"), found on the MathWorks website.   
 
