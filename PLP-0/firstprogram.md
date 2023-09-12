@@ -15,4 +15,4 @@ You can add comments using "%".
 
 Next, click the Save button. You should be prompted to name your file. Pick a good name (probably not blacktail.m, after Nanette's dead cat. #RIP). I named my file helloWorld.m!   
 
-Next, click the Run button on the top right of the GUI, or type >>run [filename.m] in the Command Window. Congrats! You've now created your first program in MATLAB!
+Next, click the Run button on the top right of the GUI, or type >>run [filename.m] in the Command Window. Congrats! You've now created and run your first program in MATLAB!
