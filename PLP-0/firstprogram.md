@@ -1,4 +1,4 @@
-### Hello, World! Your first program in MATLAB
+### Hello, World! Your First Program in MATLAB
 
 Open the MATLAB IDE. You should see a GUI with three windows. On the left, a Current Folder window. On the right, a Workspace window. And, in the middle, a Workspace window.   
 
