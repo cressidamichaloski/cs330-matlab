@@ -12,4 +12,6 @@ Moler, Little, and Bangert went on to found MathWorks, and they introduced PC-MA
 
 Since then, MATLAB has evolved to become a high-level language with many data types and extended capabilities, with over 60 Toolboxes available for use.    
    
-The resource used to create this tutorial will be [the official MATLAB documentation](https://www.mathworks.com/help/matlab/ "MathWorks MATLAB Documentation"), found on the MathWorks website.
+The resource used to create this tutorial will be [the official MATLAB documentation](https://www.mathworks.com/help/matlab/ "MathWorks MATLAB Documentation"), found on the MathWorks website.   
+
+Information on this history of MATLAB taken from [A history of MATLAB](https://dl.acm.org/doi/10.1145/3386331/ "doi link"), written by two of MathWorks' founders, Cleve Moler and Jack Little.
