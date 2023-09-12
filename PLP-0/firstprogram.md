@@ -1,4 +1,6 @@
-### Hello, World! Your First Program in MATLAB
+# Hello, World! Your First Program in MATLAB
+
+If you do not already have MATLAB on your device, open the setup.md file and follow those instructions to install and gain access to MATLAB.
 
 Open the MATLAB IDE. You should see a GUI with three windows. On the left, a Current Folder window. On the right, a Workspace window. And, in the middle, a Workspace window.   
 
