@@ -22,15 +22,18 @@ In your example code, illustrate the important data type and operations features
  
 
 Discussion questions:
-Does your language have keywords or reserved words? How many?
-Yes, 62 from C and C++, and 80 not specified by those two languages.
-What are the naming requirements for variables in your language? 
-Starts with a letter, followed by letters, digits or underscores.
-What about naming conventions?  Are those enforced by the compiler/interpreter, or just standards in the community?
-	The standard in the MATLAB community is to name variables starting with a lowercase letter and use capital letters to delimit words, as the _ (denotes subscript) can cause issues if imported into LaTeX. Since MATLAB is primarily used for research purposes, this is a widespread issue.
-Is your language statically or dynamically typed?
-Strongly typed or weakly typed?
-Are some variables mutable while others are immutable? 
+Does your language have keywords or reserved words? How many?    
+Yes, 62 from C and C++, and 80 not specified by those two languages.    
+What are the naming requirements for variables in your language?     
+Starts with a letter, followed by letters, digits or underscores.    
+What about naming conventions?  Are those enforced by the compiler/interpreter, or just standards in the community?    
+	The standard in the MATLAB community is to name variables starting with a lowercase letter and use capital letters to delimit words, as the _ (denotes subscript) can cause issues if imported into LaTeX. Since MATLAB is primarily used for research purposes, this is a widespread issue.     
+Is your language statically or dynamically typed?    
+Dynamically, you don't have to declare type when declaring a variable.    
+Strongly typed or weakly typed?    
+Weakly typed, as data type conversions can happen during operations (between int32 and double, for example).    
+Are some variables mutable while others are immutable?     
+MATLAB values are mutable by default.    
 What are the operators available for each data type?
 Are mixed type operations allowed? If so, how are they accommodated?
 At what point are identifier names and operator symbols bound in your language? For example if you declare a (variable, class name, function name), when is it bound to the type, address? When are operators (+,*, etc.) bound to their operations?
