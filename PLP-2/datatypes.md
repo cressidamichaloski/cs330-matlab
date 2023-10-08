@@ -1,5 +1,5 @@
 # Datatypes in MATLAB
-## **(TO BE DELETED OR REVISED)**
+## **(TO BE REVISED)**
 
 Assignment given by Nanette Veilleux in CS330 at Simmons University.
      
@@ -48,15 +48,11 @@ Are mixed type operations allowed? If so, how are they accommodated?
          
 At what point are identifier names and operator symbols bound in your language? For example if you declare a (variable, class name, function name), when is it bound to the type, address? When are operators (+,*, etc.) bound to their operations?     
      
+     
 Explicitly typed or implicitly typed? 
+     MATLAB is implicitly typed as type conversions happen easily and often.
 
-
-Describe the limitations (or lack thereof) of your programming language as they relate to the coding example portion of the assignment (adding ints and floats, storing different types in lists, converting between data types).  Are there other restrictions or pitfalls that the documentation mentions that you need to be aware of?
+Describe the limitations (or lack thereof) of your programming language as they relate to the coding example portion of the assignment (adding ints and floats, storing different types in lists, converting between data types).  Are there other restrictions or pitfalls that the documentation mentions that you need to be aware of?     
+     
 Are there built-in complex data types that are commonly used in your language? (hint: they’d probably appear fairly early in the documentation if so)
-
-
-  
-At what point are identifier names and operator symbols bound in your language?  
-  For example if you declare a (variable, class name, function name), when is it bound to the type, address? When are operators (+,*, etc.) bound to their operations?  
-Explicitly typed or implicitly typed? 
- 
+     One of the most commonly used complex data types in MATLAB is the matrix (the MAT in MATLAB), which can be single or double (more common) precision. This datatype consists of an array of values grouped into rows. Another complex data type is complex numbers (numbers involving imaginary components). There are many other complex datatypes used in varying applications, and more are available through not-built-in libraries.
