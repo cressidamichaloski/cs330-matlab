@@ -7,7 +7,7 @@ For selection, Boolean values are used. Boolean values (true/false binary) are d
 True:     
 `true`
 
-False:
+False:     
 `false`
 
 ## Selection
