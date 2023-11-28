@@ -20,9 +20,32 @@ For example:
     y = 10;
 
     if x > y
-      fprintf("X is greater than Y");
+        % x > y = true
+        fprintf("X is greater than Y");
     elseif x == y
-      fprintf("X is equal to Y");
-    else % x < y
-      fprintf("X is less than Y");
+        fprintf("X is equal to Y");
+    else
+        % x < y = true
+        fprintf("X is less than Y");
+    end
 ```
+There are no other built-in selection statements.
+If/elseif/else statements must terminate with an "end" statement     
+
+In order to use short-circuiting logic and multiple conditions, MATLAB supports && || for 'and' and 'or' specifically.     
+```
+    x = 1;
+    y = 5;
+    z = 1;
+
+    if x > y && y > z
+        fprintf("X is greater than Y is greater than Z");
+    elseif x < y || y < z
+        fprintf("X is less than Y or Y is less than Z");
+    else
+        fprintf("No statement generated")
+    end
+```
+
+In the selection statement "if x > y && y > z", the computer will not actually check if y > z because it has evaluated x > y to be false, making the entire statement false by default.     
+
