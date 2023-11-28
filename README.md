@@ -1,7 +1,7 @@
 # cs330-matlab
 Learning MATLAB in CS330 - Structure and Organization of Programming Languages.
 
-### Introduction and History
+### Introduction and History - PLP-1
 MATLAB is a programming language commonly used for signal processing, image processing, machine learning, control systems, and robotics.
    
 MATLAB (portmanteau of matrix and laboratory) was originally developed by Cleve Moler during the 1970's not as a language, but as a matrix calculator. At the time, it only comprised 71 reserved words and built-in functions, all written in Fortran. MATLAB's primary purpose was to allow for easier access to existing subroutines from the LINPACK and EISPACK libraries. It was expected to serve as a classroom aide for courses ranging from introductory linear algebra to numerical analysis and interdisciplinary applications.   
