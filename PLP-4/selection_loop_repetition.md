@@ -56,7 +56,7 @@ Another option for selection is to use the "switch case" syntax.
 Like if/elseif/else, this syntax uses case/case/otherwise and continues to check until one of the cases is true.
 
 ```
-    n = 1
+    n = 1;
 
     switch n
         case 0
@@ -67,3 +67,4 @@ Like if/elseif/else, this syntax uses case/case/otherwise and continues to check
             fprintf("n=other")
     end
 ```
+If a case statement is true, the statements after will not be evaluated. There is no "break" or "continue" to use here. 
