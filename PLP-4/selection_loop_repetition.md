@@ -49,3 +49,4 @@ In order to use short-circuiting logic and multiple conditions, MATLAB supports 
 
 In the selection statement "if x > y && y > z", the computer will not actually check if y > z because it has evaluated x > y to be false, making the entire statement false by default.     
 
+Leaving a dangling else (an elseif or else statement not contained between an "if" and an "end" statement) will throw an error as it will be interpreted as unauthorized use of a reserved word. 
