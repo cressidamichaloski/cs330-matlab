@@ -49,4 +49,21 @@ In order to use short-circuiting logic and multiple conditions, MATLAB supports 
 
 In the selection statement "if x > y && y > z", the computer will not actually check if y > z because it has evaluated x > y to be false, making the entire statement false by default.     
 
-Leaving a dangling else (an elseif or else statement not contained between an "if" and an "end" statement) will throw an error as it will be interpreted as unauthorized use of a reserved word. 
+Leaving a dangling else (an elseif or else statement not contained between an "if" and an "end" statement) will throw an error as it will be interpreted as unauthorized use of a reserved word.      
+
+Another option for selection is to use the "switch case" syntax.    
+
+Like if/elseif/else, this syntax uses case/case/otherwise and continues to check until one of the cases is true.
+
+```
+    n = 1
+
+    switch n
+        case 0
+            fprintf("n = 0")
+        case {-1, 1}
+            fprintf("n is equal to -1 or 1")
+        otherwise
+            fprintf("n=other")
+    end
+```
