@@ -12,47 +12,55 @@ classdef scope
 To add properties (attributes in other languages) define the properties below classdef.
 
 ```
-classdef Scope
+classdef Person
   properties (Constant) %restricts modification
-      ScopeID
+      id
   end
   properties (Dependent) %set only when asked for by client
-      CurrentUser
+      location
   end
   properties %no modifications, can be seen and edited by client
-      SamplingRate
-      FrequencyHz
-      Data %data taken from measurement
-      Name %name of experiment trial
+      name
+      age
+      sex
 end
 
 ```
 
 To implement methods, define them within a methods code block
 ```
-classdef Scope
+classdef Person
 %skipping properties
-methods
-  function obj = scope(ScopeID, SamplingRate, FrequencyHz, Data, Name)
-  %insert function code here
-  end
-
-  function plot = plot(obj)
-  %insert function code here
-  end
-
-  function fftrans = fastFourier(Data)
-  %insert function code here
-  end
-end
+  methods
+    function set.name(obj, n) %obj refers to the class itself
+      obj.name = n;
+    end
   
-end
+    function get.location(obj, l)
+      obj.location = l;
+    end
+    
+  end
 ```
 
 MATLAB also supports inheritance. In order to create a subclass of the Scope class, we use classdef ClassName < SuperClass.
 
 ```
-classdef CompressedScope < Scope
+classdef Student < Person
+  %you have all of the methods and properties, and can add more if you'd like.
+
+  properties
+    school
+
+  methods
+    function set.school(obj, s)
+      obj.school = s;
+    end
+
+  function o = oldestToDate(obj)
+      o = (obj.age-7)+2;
+  end
+
 ```
-will finish soon
+To 
 
