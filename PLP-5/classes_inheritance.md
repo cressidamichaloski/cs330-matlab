@@ -32,7 +32,7 @@ To implement methods, define them within a methods code block
 classdef Person
 %skipping properties
   methods
-    function set.name(obj, n) %obj refers to the class itself
+    function newname(obj, n) %obj refers to the class itself
       obj.name = n;
     end
   
@@ -53,7 +53,7 @@ classdef Student < Person
     school
 
   methods
-    function set.school(obj, s)
+    function newschool(obj, s)
       obj.school = s;
     end
 
@@ -62,5 +62,32 @@ classdef Student < Person
   end
 
 ```
-To 
+To instantiate a class as an object, we call it and set a name to it.
 
+```
+abby = Person(1, "Abby", 20, "F");
+
+abby.newname("Abigail");
+disp(abby.name);
+
+lyla = Student(2, "Lyla", 21, "F", "Simmons");
+o = lyla.oldestToDate();
+disp(o);
+
+```
+
+One more important thing to know about classes in MATLAB is the "handle" versus "value" classes. Handle classes use something similar to pass-by-reference.     
+
+In order to define a handle class, it should inherit from the built-in handle class.
+
+```
+classdef myHandle < handle
+```
+When you create multiple objects of the same handle class, they will refer to the same object.
+
+```
+a = myHandle;
+b = myHandle;
+```
+If you change a property in a, that same change will be reflected in b, since they are the same.    
+MATLAB functions are value classes by default, so only use handle classes in specific cases where you need only one object in multiple places. 
